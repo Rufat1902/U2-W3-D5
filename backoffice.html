@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Backoffice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Admin Panel</h1>
+  <form id="product-form">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="text" id="description" placeholder="Description" required />
+    <input type="text" id="brand" placeholder="Brand" required />
+    <input type="url" id="imageUrl" placeholder="Image URL" required />
+    <input type="number" id="price" placeholder="Price" required />
+    <button type="submit">Save</button>
+    <button type="reset" id="reset-btn">Reset</button>
+    <button type="button" id="delete-btn" class="danger">Delete</button>
+  </form>
+  <div id="message"></div>
+
+  <script src="backoffice.js"></script>
+</body>
+</html>
