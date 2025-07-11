@@ -45,10 +45,8 @@ button {
   text-decoration: none;
 }
 .card-buttons {
-  margin-top: auto;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
 }
 .card:hover {
   transform: scale(1.02);
