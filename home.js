@@ -16,7 +16,7 @@ fetch("https://striveschool-api.herokuapp.com/api/product/", {
       const card = document.createElement("div");
       card.className = "card";
       card.innerHTML = `
-        <img src="${prod.imageUrl}" width="100%" />
+        <img src="${prod.imageUrl}" style="max-width: 300px; height: auto; object-fit: cover; border-radius: 10px;" />
         <h3>${prod.name}</h3>
         <p>${prod.brand}</p>
         <p>€${prod.price}</p>
